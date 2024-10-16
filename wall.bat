@@ -1,6 +1,6 @@
 @echo off
-powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/RenGamesTeam/RDP/refs/heads/main/TranscodedWallpaper -OutFile TranscodedWallpaper"
-powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/RenGamesTeam/RDP/refs/heads/main/wallpaper-1024x768.jpg -OutFile CachedImage_1024_768_POS4.jpg"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/RenGamesTeam/RDPAssetsRepo/refs/heads/main/TranscodedWallpaper -OutFile TranscodedWallpaper"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/RenGamesTeam/RDPAssetsRepo/refs/heads/main/wallpaper-1024x768.jpg -OutFile CachedImage_1024_768_POS4.jpg"
 
 set "TranscodedWallpaper=TranscodedWallpaper"
 set "CachedImage=CachedImage_1024_768_POS4.jpg"
